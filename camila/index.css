@@ -1,0 +1,149 @@
+body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color:rgb(255, 255, 255);
+    color: rgb(92, 27, 67);
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    margin: 0;
+}
+header nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 30px;
+}
+
+header nav ul li a{
+    color: rgb(92, 27, 67);
+    text-decoration: none;
+}
+
+main{
+    margin-left: 355px;
+    margin-right: 295px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(253, 208, 236) ;
+    z-index: 1;
+}
+
+.section-container{
+    width: 90%;
+    display: flex;
+    padding: 45px;
+    margin-left: 24px;
+
+}
+section{
+    width: 80%;
+    margin: 20px;
+    text-align: center;
+    border: 5px solid rgb(165, 40, 117);
+    border-radius: 10px;
+    padding: 25px;
+    display: inline-block;
+}
+section h2{
+    color:rgb(87, 64, 117);
+}
+section p{
+    margin-top: 20px;
+}
+
+/*----- Barra lateral ----- */
+
+aside{
+    width: 250px;
+    background-color: rgb(253, 208, 236);
+    padding: 20px;
+    box-align: border-box;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 100px;
+    z-index: 1;
+}
+aside h3{
+    color: rgb(92, 27, 67);
+}
+aside p{
+    color: rgb(65, 49, 59);
+}
+
+footer{
+    background-color: rgb(253, 208, 236);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+}
+
+.titlog{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: contents;
+    font-size: 25px;
+
+}
+
+.log{
+    width: 80px;
+    height: 80px;
+    margin-top: -15px;
+
+}
+
+.logo{
+    display: inline;
+}
+.titulo{
+    font-size: 40px;
+
+}
+
+.aside2{
+    width: 250px;
+    background-color: rgb(253, 208, 236);
+    padding: 20px;
+    box-align: border-box;
+    position: fixed;
+    left: 1070px;
+    bottom: 0;
+    top: 100px;
+    z-index: 1;
+}
+
+
+iframe{
+    width:350px;
+    height:250px;
+    border-radius: 20px;
+}
